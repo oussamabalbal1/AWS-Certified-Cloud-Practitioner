@@ -3,7 +3,7 @@ In this repository, I just write some things that I usually forget about AWS CCP
 
 - [IAM : Identity and Access Management](#IAM)
 - [S3 : Simple Storage Service](#usage)
-- [EFS – Elastic File System](#EFS)
+- [EFS](EFS – Elastic File SystemS)
 - [License](#license)
 
 
