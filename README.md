@@ -1,6 +1,10 @@
 # AWS-Certified-Cloud-Practitioner
 In this repository, I just write some things that I usually forget about AWS CCP Certificate to make it easier for me to review it later.
 
+- [IAM](#S3 : Simple Storage Service )
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 
 ### How to choose an AWS Region?
