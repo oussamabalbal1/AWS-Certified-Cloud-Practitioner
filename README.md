@@ -21,30 +21,30 @@ In this repository, I just write some things that I usually forget about AWS CCP
 - Measured service:
 	- Usage is measured, users pay correctly for what they have used
 
-Six Advantages of Cloud Computing
-	--Trade capital expense (CAPEX) for operational expense (OPEX)
-		-Pay On-Demand: don’t own hardware
-		-Reduced Total Cost of Ownership (TCO) & Operational Expense (OPEX)
-	--Benefit from massive economies of scale
-		-Prices are reduced as AWS is more efficient due to large scale
-	--Stop guessing capacity
-		-Scale based on actual measured usage
-	--Increase speed and agility
-	--Stop spending money running and maintaining data centers
-	--Go global in minutes: 
-		-leverage the AWS global infrastructure
+## Six Advantages of Cloud Computing
+- Trade capital expense (CAPEX) for operational expense (OPEX)
+	- Pay On-Demand: don’t own hardware
+	- Reduced Total Cost of Ownership (TCO) & Operational Expense (OPEX)
+- Benefit from massive economies of scale
+	- Prices are reduced as AWS is more efficient due to large scale
+- Stop guessing capacity
+	- Scale based on actual measured usage
+- Increase speed and agility
+- Stop spending money running and maintaining data centers
+- Go global in minutes: 
+	- leverage the AWS global infrastructure
 
-IAM : Identity and Access Management
-	-Users or Groups can be assigned JSON documents called policies
-	-These policies define the permissions of the users
-	-IAM Policies Structure: Version-ID-SID-Effect
-	-MFA:Multi Factor Authentication
-	-Access Keys:Access Key ID/Secret Access Key
-	-IAM Security Tools
-		--IAM Credentials Report (account-level): 
-			---lists all your account's users and the status of their various credentials
-		--IAM Access Advisor (user-level) :
-			---shows the service permissions granted to a user and when those services were last accessed
+# IAM : Identity and Access Management
+- Users or Groups can be assigned JSON documents called policies
+- These policies define the permissions of the users
+- IAM Policies Structure: Version-ID-SID-Effect
+- MFA:Multi Factor Authentication
+- Access Keys:Access Key ID/Secret Access Key
+- IAM Security Tools
+	- IAM Credentials Report (account-level): 
+		- lists all your account's users and the status of their various credentials
+	- IAM Access Advisor (user-level) :
+		- shows the service permissions granted to a user and when those services were last accessed
 
 EC2 : Elastic Compute Cloud
 	-EC2 User Data:
