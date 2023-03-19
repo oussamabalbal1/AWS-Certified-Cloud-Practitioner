@@ -67,5 +67,15 @@ In this repository, I just write some things that I usually forget about AWS CCP
 	- Not necessary to detach volume to do snapshot, but recommended
 	- Can copy across AZ or Region
 - EBS Snapshots Features :
-	- EBS Snapshot Archive : 75% cheaper / 24 to 72 hours for restoring
-	- Recycle Bin for EBS Snapshots : Setup rules to retain deleted snapshots so you can recover them after an accidental deletion
+	- __EBS Snapshot Archive__ : 75% cheaper / 24 to 72 hours for restoring
+	- __Recycle Bin for EBS Snapshots__ : Setup rules to retain deleted snapshots so you can recover them after an accidental deletion
+## AMI : Amazon Machine Image
+Customization of an EC2 instance, Built for a specific region (and can be copied across regions)
+- You add your own software, configuration, operating system, monitoring…
+- Faster boot / configuration time because all your software is pre-packaged
+- You can launch EC2 instances from
+	- A Public AMI
+	- An AWS Marketplace AMI
+	- Your own AMI
+	![01](https://user-images.githubusercontent.com/46396011/226205226-513fc14f-2a04-4d12-9cec-aca5db7ea6ed.PNG)
+
