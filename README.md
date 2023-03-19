@@ -146,11 +146,37 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 		- Tags
 		- Version ID (IF enabled)
 - #### S3 – Security
-	- __User-Based__ : • IAM Policies
+	- __User-Based__ : IAM Policies
 	- __Resource-Based__
 		- _Bucket Policies_ : bucket wide rules from the S3 console - allows cross account
 		- _Object Access Control List (ACL)_
 		- _Bucket Access Control List (ACL)_
+	- __Encryption__ 
+	- _Note:_ an IAM principal can access an S3 object if :
+		- The user IAM permissions ALLOW it OR the resource policy ALLOWS it
+		- AND there’s no explicit DENY
+- S3 Bucket Policies 
+	- JSON based policies
+	- Use S3 bucket for policy to
+		- Grant public access to the bucket or (Cross Account)
+		- Force objects to be encrypted at upload
+- Bucket settings for Block Public Access (account level)
+	- These settings were created to prevent company data leaks
+	- If you know your bucket should never be public, leave these on
+
+
+	![001](https://user-images.githubusercontent.com/46396011/226212909-14b476b2-928b-4153-aef7-92d28373ab4e.PNG)
+- S3 Static Website Hosting
+	- S3 can host static websites and have them accessible on the Internet
+- S3 Versioning
+	- You can version your files in Amazon S3 ( __bucket level__ )
+- S3 Replication (__CRR & SRR__)
+	- __Must enable Versioning__ in source and destination buckets
+	- __Cross-Region Replication__ (CRR) : compliance, lower latency access..
+	- __Same-Region Replication__ (SRR) : – log aggregation..
+	- Copying is asynchronous
+	- Buckets can be in different AWS accounts
+- ### S3 Storage Classes
 
 
 
