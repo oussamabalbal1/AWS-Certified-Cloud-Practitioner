@@ -1,7 +1,8 @@
 # AWS-Certified-Cloud-Practitioner
 In this repository, I just write some things that I usually forget about AWS CCP Certificate to make it easier for me to review it later.
 
-- [IAM : Identity and Access Management](#IAM)
+##### Table of Contents  
+- [S3 Storage Classes](#S3 Storage Classes)
 - [S3 : Simple Storage Service](#usage)
 - [EFS](EFS – Elastic File SystemS)
 - [License](#license)
