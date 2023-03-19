@@ -2,7 +2,7 @@
 In this repository, I just write some things that I usually forget about AWS CCP Certificate to make it easier for me to review it later.
 
 ##### Table of Contents  
-- [S3 Storage Classes](#S3 Storage Classes)
+- [IAM](#iam--identity-and-access-management)
 - [S3 : Simple Storage Service](#usage)
 - [EFS](EFS – Elastic File SystemS)
 - [License](#license)
