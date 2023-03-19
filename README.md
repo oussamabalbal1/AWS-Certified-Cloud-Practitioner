@@ -146,7 +146,11 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 		- Tags
 		- Version ID (IF enabled)
 - #### S3 – Security
-	- User-Based
+	- __User-Based__ : • IAM Policies
+	- __Resource-Based__
+		- _Bucket Policies_ : bucket wide rules from the S3 console - allows cross account
+		- _Object Access Control List (ACL)_
+		- _Bucket Access Control List (ACL)_
 
 
 
