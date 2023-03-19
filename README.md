@@ -3,9 +3,8 @@ In this repository, I just write some things that I usually forget about AWS CCP
 
 ##### Table of Contents  
 - [IAM](#iam--identity-and-access-management)
-- [S3 : Simple Storage Service](#usage)
-- [EFS](EFS – Elastic File SystemS)
-- [License](#license)
+- [EC2](#ec2--elastic-compute-cloud)
+
 
 
 ### How to choose an AWS Region?
