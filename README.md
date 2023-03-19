@@ -128,6 +128,25 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 		- Scales up to 100s GB/s, millions of IOPS, sub-ms latencies
 		
 		![01](https://user-images.githubusercontent.com/46396011/226208620-0fd0b592-c188-4a04-8580-cfdaac5ca103.PNG)
+		
+		
+# S3 : Simple Storage Service 
+- Use cases :
+	- Backup, storage, Disaster Recovery, Archive..
+- S3 Buckets (region level )
+	- Amazon S3 allows people to store objects (files) in “buckets” (directories)
+	- Buckets must have a globally unique name (across all regions all accounts)
+- S3 - Objects
+	- Objects (files) have a Key
+	- The key is the FULL path
+	- The key is composed of prefix + object name
+	- __Contents__
+		- VALUE : Max. Object Size is 5TB (5000GB)
+		- Metadata
+		- Tags
+		- Version ID (IF enabled)
+- #### S3 – Security
+	- User-Based
 
 
 
