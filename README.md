@@ -110,6 +110,25 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 	
 	
 	![03](https://user-images.githubusercontent.com/46396011/226205750-212a75c9-72d4-4f60-a105-2fbac1d45570.PNG)
+	
+- ### Amazon FSx
+	- Launch 3rd party high-performance file systems on AWS
+	- Fully managed service
+	- #### Amazon FSx for Windows File Server
+		- A fully managed, highly reliable, and scalable Windows native shared file system 
+		- Supports SMB protocol & Windows NTFS
+		- Integrated with Microsoft Active Directory
+		- Can be accessed from AWS or your on-premise infrastructure
+		
+		![04](https://user-images.githubusercontent.com/46396011/226208511-543ffcd1-e8d7-40c6-93d4-b1b20d649ebe.PNG)
+
+	- #### Amazon FSx for Lustre
+		- Lustre (Linux+Cluster)
+		- A fully managed, high-performance, scalable file storage for __High Performance Computing (HPC)__
+		- Scales up to 100s GB/s, millions of IOPS, sub-ms latencies
+		
+		![01](https://user-images.githubusercontent.com/46396011/226208620-0fd0b592-c188-4a04-8580-cfdaac5ca103.PNG)
+
 
 
 
