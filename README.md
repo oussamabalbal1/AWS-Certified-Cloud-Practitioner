@@ -76,13 +76,17 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 - You can launch EC2 instances from
 	- A Public AMI
 	- An AWS Marketplace AMI
-	- Your own AMI
+	- Your own AMI 
+
+
 ![01](https://user-images.githubusercontent.com/46396011/226205226-513fc14f-2a04-4d12-9cec-aca5db7ea6ed.PNG)
 
 ## EC2 Image Builder
 - Used to automate the creation of Virtual Machines or container images
 - Automate the creation, maintain, validate and test EC2 AMIs
 - Can be run on a schedule
+
+
 ![01](https://user-images.githubusercontent.com/46396011/226205359-c289b19d-5347-48ef-b695-6d6534e8a7d0.PNG)
 
 ## EC2 Instance Store
@@ -95,12 +99,15 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 - Managed NFS (network file system) that can be mounted on 100s of EC2
 - EFS works with Linux EC2 instances in multi-AZ
 - Highly available, scalable, expensive, pay per use, no capacity planning
+
+
 ![02](https://user-images.githubusercontent.com/46396011/226205550-80ff75a0-98b0-475f-adc2-e32cd821a026.PNG)
 - ### EFS Infrequent Access (EFS-IA)
 	- Storage class that is cost-optimized for files not accessed every day
 	- Up to 92% lower cost compared to EFS Standard
 	- EFS will automatically move your files to EFS-IA based on the last time they were accessed
 	- Enable EFS-IA with a Lifecycle Policy : EXP: move files that are not accessed for 60 days to EFS-IA
+	
 	
 	![03](https://user-images.githubusercontent.com/46396011/226205750-212a75c9-72d4-4f60-a105-2fbac1d45570.PNG)
 
