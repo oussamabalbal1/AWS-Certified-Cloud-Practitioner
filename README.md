@@ -1,7 +1,7 @@
 # AWS-Certified-Cloud-Practitioner
 In this repository, I just write some things that I usually forget about AWS CCP Certificate to make it easier for me to review it later.
 
-- [IAM](#S3 : Simple Storage Service)
+- [IAM](#IAM)
 - [S3 : Simple Storage Service](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -90,7 +90,6 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 - Automate the creation, maintain, validate and test EC2 AMIs
 - Can be run on a schedule
 
-## Contributing
 ![01](https://user-images.githubusercontent.com/46396011/226205359-c289b19d-5347-48ef-b695-6d6534e8a7d0.PNG)
 
 ## EC2 Instance Store
