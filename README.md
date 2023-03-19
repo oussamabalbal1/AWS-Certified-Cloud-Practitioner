@@ -46,26 +46,26 @@ In this repository, I just write some things that I usually forget about AWS CCP
 	- IAM Access Advisor (user-level) :
 		- shows the service permissions granted to a user and when those services were last accessed
 
-EC2 : Elastic Compute Cloud
-	-EC2 User Data:
-		--It is possible to bootstrap our instances using an EC2 User data script
-	-EC2 Instance Types:m5.2xlarge
-		--m: instance class/5: generation/2xlarge: size
+# EC2 : Elastic Compute Cloud
+- EC2 User Data:
+	- It is possible to bootstrap our instances using an EC2 User data script
+- EC2 Instance Types:m5.2xlarge
+	- m: instance class/5: generation/2xlarge: size
 
-	-Security groups only contain ALLOWS rules : acting as a “firewall” on EC2 instances	
-		--rules can reference by IP or by security group
-		--All inbound traffic is blocked by default
-		--All outbound traffic is authorised by default
-	-EC2 Instance Connect: Connect to your EC2 instance within your browser
+- Security groups only contain ALLOWS rules : acting as a “firewall” on EC2 instances	
+	- rules can reference by IP or by security group
+	- All inbound traffic is blocked by default
+	- All outbound traffic is authorised by default
+- EC2 Instance Connect: Connect to your EC2 instance within your browser
 
-	-Purchasing Options: On-Demand, Spot, Reserved (Standard + Convertible + Scheduled), Dedicated Host, Dedicated Instance
+- Purchasing Options: On-Demand, Spot, Reserved (Standard + Convertible + Scheduled), Dedicated Host, Dedicated Instance
 
-EBS : Elastic Block Store (size in GBs, and IOPS)
-	- Volume is a network drive you can attach to your instances while they run(bound to a specific availability zone)
-	- It allows your instances to persist data, even after their termination
-	- EBS Snapshots : Make a backup of your EBS volume
-		- Not necessary to detach volume to do snapshot, but recommended
-		- Can copy across AZ or Region
-	- EBS Snapshots Features :
-		- EBS Snapshot Archive : 75% cheaper / 24 to 72 hours for restoring
-		- Recycle Bin for EBS Snapshots : Setup rules to retain deleted snapshots so you can recover them after an accidental deletion
+# EBS : Elastic Block Store (size in GBs, and IOPS)
+- Volume is a network drive you can attach to your instances while they run(bound to a specific availability zone)
+- It allows your instances to persist data, even after their termination
+- EBS Snapshots : Make a backup of your EBS volume
+	- Not necessary to detach volume to do snapshot, but recommended
+	- Can copy across AZ or Region
+- EBS Snapshots Features :
+	- EBS Snapshot Archive : 75% cheaper / 24 to 72 hours for restoring
+	- Recycle Bin for EBS Snapshots : Setup rules to retain deleted snapshots so you can recover them after an accidental deletion
