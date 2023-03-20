@@ -133,6 +133,11 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 		![01](https://user-images.githubusercontent.com/46396011/226208620-0fd0b592-c188-4a04-8580-cfdaac5ca103.PNG)
 		
 		
+# ELB & ASG : Elastic Load Balancing & Auto Scaling Groups Section
+- Some tearms :
+	- _Scalability:_ ability to accommodate a larger load by making the hardware stronger (scale up), or by adding nodes (scale out)
+	- _Elasticity:_ once a system is scalable, elasticity means that there will be some “auto-scaling” so that the system can scale based on the load. This is “cloud-friendly”: pay-per-use, match demand, optimize costs
+	- _Agility:_ (not related to scalability - distractor) new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes.
 # S3 : Simple Storage Service 
 - Use cases :
 	- Backup, storage, Disaster Recovery, Archive..
