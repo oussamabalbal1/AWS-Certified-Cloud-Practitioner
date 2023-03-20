@@ -160,11 +160,12 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 
 
 ## ASG (Auto Scaling Group)
-- Scale out (add EC2 instances) to match an increased load
-- Scale in (remove EC2 instances) to match a decreased load
-- Ensure we have a minimum and a maximum number of machines running
-- Automatically register new instances to a load balancer
-- Replace unhealthy instances
+- The goal of ASG : 
+	- Scale out (add EC2 instances) to match an increased load
+	- Scale in (remove EC2 instances) to match a decreased load
+	- Ensure we have a minimum and a maximum number of machines running
+	- Automatically register new instances to a load balancer
+	- Replace unhealthy instances
 - Scaling Strategies : 
 	- __Manual Scaling__ : Update the size of an ASG manually
 	- __Dynamic Scaling__ : Respond to changing demand
