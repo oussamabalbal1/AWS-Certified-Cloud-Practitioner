@@ -4,6 +4,7 @@ In this repository, I just write some things that I usually forget about AWS CCP
 ##### Table of Contents  
 - [IAM](#iam--identity-and-access-management)
 - [EC2](#ec2--elastic-compute-cloud)
+- [EBS](#ebs--elastic-block-store-size-in-gbs-and-iops)
 
 
 
