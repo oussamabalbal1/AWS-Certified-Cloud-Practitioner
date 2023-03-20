@@ -138,6 +138,47 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 	- _Scalability:_ ability to accommodate a larger load by making the hardware stronger (scale up), or by adding nodes (scale out)
 	- _Elasticity:_ once a system is scalable, elasticity means that there will be some “auto-scaling” so that the system can scale based on the load. This is “cloud-friendly”: pay-per-use, match demand, optimize costs
 	- _Agility:_ (not related to scalability - distractor) new IT resources are only a click away, which means that you reduce the time to make those resources available to your developers from weeks to just minutes.
+- What is load balancing:
+	- Load balancers are servers that forward internet traffic to multiple servers (EC2 Instances) downstream
+- Why use a load balancer?
+	- Spread load across multiple downstream instances
+	- Expose a single point of access (DNS) to your application
+	- Provide SSL termination (HTTPS) for your websites
+	- High availability across zones
+	- Do regular health checks to your instances and handle failures of downstream instances
+
+## ELB (Elastic Load Balancer)
+- An ELB (Elastic Load Balancer) is a managed load balancer
+- 4 kinds of load balancers offered by AWS
+	1. Application Load Balancer (HTTP / HTTPS only) – Layer 7
+	2. Network Load Balancer (ultra-high performance, allows for TCP) – Layer 4
+	3. Gateway Load Balancer – Layer 3
+	4. Classic Load Balancer (retired in 2023) – Layer 4 & 7
+
+![sd01](https://user-images.githubusercontent.com/46396011/226339047-71898d01-452a-4f3e-a009-503df275f493.PNG)
+
+
+## ASG (Auto Scaling Group)
+- Scale out (add EC2 instances) to match an increased load
+- Scale in (remove EC2 instances) to match a decreased load
+- Ensure we have a minimum and a maximum number of machines running
+- Automatically register new instances to a load balancer
+- Replace unhealthy instances
+- Scaling Strategies : 
+	- __Manual Scaling__ : Update the size of an ASG manually
+	- __Dynamic Scaling__ : Respond to changing demand
+		- _Simple / Step Scaling_
+			- When a CloudWatch alarm is triggered (example CPU > 70%), then add 2 units
+			- When a CloudWatch alarm is triggered (example CPU < 30%), then remove 1
+		- _Target Tracking Scaling_
+			- Example: I want the average ASG CPU to stay at around 40%
+		- _Scheduled Scaling_
+			- Example: increase the min. capacity to 10 at 5 pm on Fridays
+	- __Predictive Scaling__ : Uses Machine Learning to predict future traffic ahead of time
+
+
+
+
 # S3 : Simple Storage Service 
 - Use cases :
 	- Backup, storage, Disaster Recovery, Archive..
