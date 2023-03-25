@@ -266,6 +266,10 @@ AWS provisions encryption hardware
 - Integration with Amazon RDS 
 - Secrets are encrypted using KMS
 
+## AWS Artifact (not really a service)
+- Portal that provides customers with on-demand access to AWS compliance documentation and AWS agreements
+- Can be used to support internal audit or compliance
+
 		
 
 
