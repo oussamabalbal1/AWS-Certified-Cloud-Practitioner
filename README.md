@@ -231,4 +231,24 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 
 
 
+# Security & Compliance Section
+
+## AWS Shield
+	- AWS Shield Standard (Free service) 
+		Provides protection from attacks such as SYN/UDP Floods, Reflection attacks and other layer 3/layer 4 attacks
+	- AWS Shield Advanced
+		- Optional DDoS mitigation service ($3,000 per month per organization) 
+		- Optional DDoS mitigation service
+		- 24/7 access to AWS DDoS response team (DRP)
+## AWS WAF – Web Application Firewall
+	- Protects your web applications from common web exploits (Layer 7)
+	- Deploy on Application Load Balancer, API Gateway, CloudFront
+	- Define Web ACL (Web Access Control List):
+		- Rules can include IP addresses
+		- Protects from common attack - SQL injection and Cross-Site Scripting (XSS)
+		
+
+
+
+
 
