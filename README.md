@@ -287,5 +287,20 @@ AWS provisions encryption hardware
 - Send findings to Amazon Event Bridge
 - for EC2 instances, Container Images & Lambda functions
 
+## AWS Config
+- Helps with auditing and recording compliance of your AWS resources
+- Helps record configurations and changes over time
 
+## AWS Macie
+Amazon Macie is a fully managed data security and data privacy service that uses machine learning and pattern matching to discover and protect your sensitive data in AWS
 
+## AWS Security Hub
+Central security tool to manage security across several AWS accounts and automate security checks
+
+## Amazon Detective
+- GuardDuty, Macie, and Security Hub are used to identify potential security issues, or findings
+- Sometimes security findings require deeper analysis to isolate the root cause and take action – it’s a complex process
+- Amazon Detective analyzes, investigates, and quickly identifies the root cause of security issues or suspicious activities (using ML and graphs)
+
+## AWS Abuse
+- Report suspected AWS resources used for abusive or illegal purposes
