@@ -281,6 +281,11 @@ AWS provisions encryption hardware
 - Can setup EventBridge rules to be notified in case of findings
 - Can protect against CryptoCurrency attacks
 
+## Amazon Inspector
+- Automated Security Assessments
+- Reporting & integration with AWS Security Hub
+- Send findings to Amazon Event Bridge
+- for EC2 instances, Container Images & Lambda functions
 
 
 
