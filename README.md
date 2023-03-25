@@ -246,6 +246,19 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 - Define Web ACL (Web Access Control List):
 	- Rules can include IP addresses
 	- Protects from common attack - SQL injection and Cross-Site Scripting (XSS)
+
+## AWS KMS (Key Management Service)
+AWS manages the encryption keys for us
+
+## CloudHSM (Dedicated Hardware)
+AWS provisions encryption hardware
+
+## AWS Certificate Manager (ACM)
+- Let’s you easily provision, manage, and deploy SSL/TLS Certificates
+- Integrations with (load TLS certificates on) :
+	• Elastic Load Balancers
+	• CloudFront Distributions
+	• APIs on API Gateway
 		
 
 
