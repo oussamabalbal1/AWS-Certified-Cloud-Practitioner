@@ -270,8 +270,16 @@ AWS provisions encryption hardware
 - Portal that provides customers with on-demand access to AWS compliance documentation and AWS agreements
 - Can be used to support internal audit or compliance
 
-		
-
+## Amazon GuardDuty	
+- ntelligent Threat discovery to protect your AWS Account
+- Uses Machine Learning algorithms
+- Input data
+	- CloudTrail Events Logs
+	- VPC Flow Logs
+	- DNS Logs
+	- Kubernetes Audit Logs
+- Can setup EventBridge rules to be notified in case of findings
+- Can protect against CryptoCurrency attacks
 
 
 
