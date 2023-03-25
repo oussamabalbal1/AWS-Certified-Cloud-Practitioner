@@ -256,9 +256,16 @@ AWS provisions encryption hardware
 ## AWS Certificate Manager (ACM)
 - Let’s you easily provision, manage, and deploy SSL/TLS Certificates
 - Integrations with (load TLS certificates on) :
-	• Elastic Load Balancers
-	• CloudFront Distributions
-	• APIs on API Gateway
+	- Elastic Load Balancers
+	- CloudFront Distributions
+	- APIs on API Gateway
+
+## AWS Secrets Manager
+- Newer service, meant for storing secrets
+- Capability to force rotation of secrets every X days
+- Integration with Amazon RDS 
+- Secrets are encrypted using KMS
+
 		
 
 
