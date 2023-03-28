@@ -261,7 +261,41 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 - ### DynamoDB Accelerator - DAX
 	- Fully Managed in-memory cache for DynamoDB
 	- 10x performance improvement – singledigit millisecond latency to microseconds latency – when accessing your DynamoDB tables
-
+## Redshift
+- Redshift is based on PostgreSQL, but it’s not used for OLTP
+- It’s OLAP – online analytical processing (analytics and data warehousing)
+- Columnar storage of data (instead of row based)
+## Amazon EMR
+- EMR stands for “Elastic MapReduce”
+- EMR helps creating Hadoop clusters (Big Data) to analyze and process vast amount of data
+- The clusters can be made of hundreds of EC2 instances
+- Use cases: data processing, machine learning, web indexing, big data…
+## Amazon Athena
+- Serverless query service to analyze data stored in Amazon S3
+- Uses standard SQL language to query the files
+- Use cases: Business intelligence / analytics / reporting, analyze & query VPC Flow Logs, ELB Logs, CloudTrail trails, etc...
+## Amazon QuickSight
+- Serverless machine learning-powered business intelligence service to create interactive dashboards
+- Fast, automatically scalable, embeddable, with per-session pricing
+## DocumentDB
+- DocumentDB is the same for MongoDB (which is a NoSQL database)
+- Similar “deployment concepts” as Aurora
+## Amazon Neptune
+- Fully managed graph database
+## Amazon QLDB
+- QLDB stands for ”Quantum Ledger Database”
+- A ledger is a book recording financial transactions
+- Used to review history of all the changes made to your application data over time
+- Immutable system: no entry can be removed or modified, cryptographically verifiable
+## Amazon Managed Blockchain
+- Blockchain makes it possible to build applications where multiple parties can execute transactions without the need for a trusted, central authority.
+## AWS Glue
+- Managed extract, transform, and load (ETL) service
+- Useful to prepare and transform data for analytics
+- ### Glue Data Catalog : catalog of datasets
+	- can be used by Athena, Redshift, EMR
+## DMS – Database Migration Service
+- Quickly and securely migrate databases to AWS, resilient, self healing
 
 
 # Security & Compliance Section
