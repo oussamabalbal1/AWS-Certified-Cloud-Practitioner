@@ -230,6 +230,31 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 - ### S3 Storage Classes
 
 
+# Databases
+
+## AWS RDS
+- RDS stands for Relational Database Service
+- It’s a managed DB service for DB use SQL as a query language
+- It allows you to create databases in the cloud that are managed by AWS (Postgres-MySQL-MariaDB-Oracle-Microsoft SQL Server-Aurora)
+- Advantage over using RDS versus deploying DB on EC2
+	- Automated provisioning, OS patching
+	- Continuous backups and restore to specific timestamp
+	- Monitoring dashboards
+	- Read replicas for improved read performance
+	- Multi AZ setup for DR
+	- Storage backed by EBS
+	- BUT you can’t SSH into your instances
+## Amazon Aurora
+- Aurora is a proprietary technology from AWS (not open sourced)
+- PostgreSQL and MySQL are both supported as Aurora DB
+## Amazon ElastiCache
+- The same way RDS is to get managed Relational Databases
+- ElastiCache is to get managed Redis or Memcached
+- Caches are in-memory databases with high performance, low latency
+- Helps reduce load off databases for read intensive workloads
+
+
+
 
 # Security & Compliance Section
 
