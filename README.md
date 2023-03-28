@@ -252,7 +252,15 @@ Customization of an EC2 instance, Built for a specific region (and can be copied
 - ElastiCache is to get managed Redis or Memcached
 - Caches are in-memory databases with high performance, low latency
 - Helps reduce load off databases for read intensive workloads
-
+## DynamoDB
+- Fully Managed Highly available with replication across 3 AZ
+- NoSQL database - not a relational database
+- Millions of requests per seconds, trillions of row, 100s of TB of storage
+- Single-digit millisecond latency – low latency retrieval
+- Scales to massive workloads, distributed “serverless” database
+- ### DynamoDB Accelerator - DAX
+	- Fully Managed in-memory cache for DynamoDB
+	- 10x performance improvement – singledigit millisecond latency to microseconds latency – when accessing your DynamoDB tables
 
 
 
